@@ -21,14 +21,8 @@ button {
   text-transform: uppercase;
 }
 
-.visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-
-  white-space: nowrap;
-  overflow: hidden;
+.hidden {
+  display: none;
 }
 
 .section-title {
@@ -153,7 +147,6 @@ button {
 }
 
 .team-list {
-  background-color: #ffffff;
 }
 
 .team-card {
@@ -170,6 +163,7 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 /**------------------------------------*/
